@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: initial-service
+initial-service:
+  initial: "Ola"
+  default-value: "Mundo"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
